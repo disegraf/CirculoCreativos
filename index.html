@@ -1,0 +1,656 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CirculoDeLaCreatividad</title>
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Cutive' rel='stylesheet' type='text/css'>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFF;
+	background-image: url(img/bg.png);
+	background-repeat: repeat-x;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	width: 800px;
+	height: 600px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+li {
+height: 270px;
+width: 370px;
+text-align: center;
+cursor: pointer;
+}
+li img {
+width: 100%;
+}
+li.roundabout-in-focus {
+cursor: default;
+}
+li span {
+display: block;
+padding-top: 6em;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+-->
+</style>
+<!--<script src="http://code.jquery.com/jquery-1.9.1.js"></script>-->
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>-->
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="js/rsh.js" type="text/javascript"></script>
+<script src="js/custom.js"></script>
+
+
+</head>
+<body>
+<!--cabezera-->
+<header>
+<div class="logo"><img src="img/logo-opt.png" alt="CIRCULO DE LA CREATIVIDAD"/></div>	
+</header>
+<!--fin de cabezera-->
+
+<!--cargador-->
+ <div class="loader_page" id="loader">
+      <div class="loader_img">
+          <img src="img/loader_circulodelacreatividad.gif" width="100" height="100">
+      </div>
+  </div>
+<!--fin de cargador-->
+
+<!--fin de cabezera-->
+
+<!--contenidos-->
+<article id="content">
+<div id="bg-black">
+    	<div class="formulario-trabaja">
+        	<h1>CONTÁCTENOS O TRABAJA CON NOSOTROS, ÚNETE A ESTE CÍRCULO</h1>
+            <p>En el círculo somos un equipo, y hacemos las cosas siempre basándonos en las ideas de todos, siempre la prioridad son nuestros clientes.
+Queremos “sacarla del estadio” y si tú quieres ayudarnos a lograr esto, puedes unirte a nuestro equipo.</p>
+          <form name="form2" method="post" enctype="multipart/form-data">
+               	<label>Nombres: </label>
+               	<input name="nombre" type="text" value="">
+                <div class="clear_form"></div>
+                <label>Apellidos: </label>
+               	<input name="apellido" type="text" value="">
+                <div class="clear_form"></div>
+                <label>Cargo al que aspiras: </label>
+               	<input name="cargo" type="text" value="">
+                <div class="clear_form"></div>
+                <label>Correo: </label>
+               	<input name="correo" type="text" value="">
+                <div class="clear_form"></div>
+                <label>Teléfono de contacto: </label>
+               	<input name="telefono" type="text" value="">
+                <div class="clear_form"></div>
+                <label>Adjuntar Portafolio: </label>
+               	<input name="portafolio" type="file" id="portafolio">
+                <div class="clear_form"></div>
+                <label>Comentario: </label>                
+           		<textarea name="comentario" cols="" rows=""></textarea>
+             	<div class="clear_form"></div>
+             	<input style="width:100px; margin-left:180px" name="" type="button" value="Enviar" onClick="valida1();">
+            </form>
+             <div class="salida-form"><img src="img/atras_btn.png" width="41" height="46" title="Regresar"></div>   	
+        </div>
+      <div class="loader-form2"></div>
+    </div>
+	<ul id="contenidos">
+    <!--inicio-->
+    	<li id="inicio">
+        	<h1>&nbsp;</h1>
+            <ul id="giro_3d">
+            
+                <li>
+                    <div  class="nombres" id="nombre">
+                        <img src="img/quienessomos.gif"/>
+                    </div>                    
+                    <a id="f0" href="#quienessomos"><img src="img/foco1.png" alt="Award" title="Entra aqui"/></a>
+                </li>
+                    
+              	<li>
+					<div  class="nombres" id="nombre">
+						<img src="img/quienesconfian.gif"/>
+                    </div>
+					<a id="f1" href="#quienesconfian"><img src="img/foco2.png" alt="Backpack"/></a>
+                </li>
+                
+                <li>
+					<div  class="nombres" id="nombre">
+						<img src="img/quesomos.gif"/>
+                    </div>
+					<a id="f2" href="#quesomos"><img src="img/foco3.png" alt="Backpack"/></a>
+                </li>
+                
+                <li>
+					<div  class="nombres" id="nombre">
+						<img src="img/quehacemos.gif"/>
+                    </div>
+					<a id="f3" href="#quehacemos"><img src="img/foco4.png" alt="Backpack"/></a>
+                </li>
+                
+                <li>
+					<div  class="nombres" id="nombre">
+						<img src="img/dondeestamos.gif"/>
+                    </div>
+					<a id="f4" href="#dondeestamos"><img src="img/foco5.png" alt="Backpack"/></a>
+                </li>
+             
+            </ul>
+        </li>
+      <!--fin de inicio-->
+      
+      <!--quienessomos-->
+      <li id="quienessomos">
+      		<div class="flechas" id="fleanima"><img id="background" src="img/flechas.png"></div>
+   			<div class="titulos" id="titulos"><img src="img/quienessomos.gif"/></div>            
+            <div class="fanimado" id="fanima"><img src="img/foco1.png"/></div>  
+                      
+            <div id="crea-1"></div>
+            <div id="crea-2"></div>
+            <div id="crea-3"></div>
+            <div id="crea-4"></div>
+            <div id="crea-5"></div>
+            <div id="crea-6"></div>
+            <div id="crea-7"></div>
+            <div id="crea-8"></div>
+            <div id="crea-9"></div>
+            <div id="crea-10"></div>
+            <div id="crea-11"></div>
+            
+            <div id="cont_quienessomos">
+               <div class="txt_qs" id="txt_qs_1">
+               		<h2>Olga Tibaduiza</h2>
+                    <h1>-Directora General-</h1>                    
+            		<p>La directora, diseñadora gráfica con especialización en mercadeo y publicidad, Coach de vida y ejecutiva certificada de la ICL. Olga reúne la sinergia en el equipo de trabajo para alinear toda la creatividad, la organización y calidad en cada uno de los procesos que se llevan a cabo en el “CIRCULO”. Soñadora, estudiosa y ama su trabajo, todos los días se levanta con la convicción de dar lo mejor de sí e impactar su entorno con su conocimiento, habilidad y experiencia. Su frase: exageradamente y con tendencia a mejorar!</p>
+               </div>
+               <div class="txt_qs" id="txt_qs_2">
+           		 	<h2>Daneris Cabarcas</h2>
+                    <h1>- Coordinadora Administrativa-</h1>                    
+            		<p>La administrativa, secretaría contable. Daneris es un eje fundamental en la agencia, es la encargada de coordinar todos los procesos contables, de cobranza, facturación, personal y detalles que sin tener su habilidad sería complicado organizar. Tiene una sonrisa para todos los que visitan nuestras oficinas y su ejemplo de seriedad, constancia, sencillez, responsabilidad y dedicación hace que todas sus actividades tengan su sello personal. Su frase: saber escuchar es saber entender!.</p>
+              </div>
+              <div class="txt_qs" id="txt_qs_3">
+           		 	<h2>Mónica Martínez</h2>
+                    <h1>-Ejecutiva Proyectos Especiales-</h1>                    
+            		<p>La ejecutiva, publicista en las venas, pasión por su carrera, vive inspirada en lo que hace, es intensa, perseverante y muy creativa, le gusta ponerle su sello a todo lo que hace. Tiene a su cargo varios proyectos de la Agencia y siempre está dispuesta a escuchar y mejorar en lo que haya que hacer. Tiene una disposición inquebrantable para siempre esta en pro de mejorar. Su frase:</p>
+              </div>
+             <div class="txt_qs" id="txt_qs_4">
+           		 	<h2>Maria Paula Granados</h2>
+                    <h1>-Social Media Manager-</h1>
+            		<p>La Social, publicista por vocación, investigadora de todo lo que sucede, siempre esta online, vigente y actualizada de todo lo que sucede en redes sociales, temas de interés, le encanta estudiar y planear, generadora de magníficas ideas, es una de las más pequeñas del equipo pero con un gran corazón. Aduce que las ideas no llegan solas y por ello hay que trabajar para desarrollarlas. Sonriente y siempre dispuesta, siempre está conectada 24/7. Su frase:</p>
+              </div>
+              <div class="txt_qs" id="txt_qs_5">
+           		 	<h2>Jorge Alonso</h2>
+                    <h1>-Coordinador de Asociados-</h1>                    
+            		<p>El coordinador, proactivo, dador de soluciones para todos y cada uno de los proyectos que tiene el CIRCULO y de la mano de la ASOCIACIÓN CIRCULO DE CREATIVOS COLOMBIANOS vincula y da la oportunidad a muchas personas que puedan participar en convocatorias tanto en la parte creativa como en la parte de producción, siempre buscando proveedores y creativos por medio de contactos y buenas relaciones públicas impregnando recursividad, efectividad y creatividad. Su frase:</p>
+              </div>
+              <div class="txt_qs" id="txt_qs_6">
+           			<h2>Juan Camilo Melo</h2>
+                    <h1>-Creativo gráfico-</h1>
+            		<p>El creativo, diseñador gráfico con una personalidad fantástica, que lo hace único ya que su carisma, nobleza y excelente emotividad hace que sea una creativo propositivo, a nada le ve problema, solo encuentra varias soluciones que aportan a su trabajo y al equipo, es un jovencito con todas las ganas de aprender, adquirir experiencia y dar lo mejor de si en cada una de las piezas que hace. Su frase:</p>
+              </div>
+              <div class="txt_qs" id="txt_qs_7">
+           		 	<h2>Juan Carlos Herrera</h2>
+                    <h1>-Creativo community-</h1>                    
+            		<p>El creativo, publicista con la cabeza puesta en la excelencia, con ideas novedosas alineadas a lo que los clientes finales necesitan, para generar una interrelación entre la experiencia, el medio y objetivo a cumplir para obtener resultados de manera cuantitativa, es un comunicador de pensamientos con agilidad de conceptualizar y brindar soluciones de manera astuta y creativa, es carismático, comprometido, responsable, curioso y muy talentoso. Su frase:</p>
+              </div>
+              <div class="txt_qs" id="txt_qs_8">
+              	 <p>&nbsp;</p>
+                 <p>&nbsp;</p>	
+           		 <h2>Ligia Caballero</h2>
+                 <h1>-Coordinadora de proyectos-</h1>                 
+            		<p>La coordinadora, es una mujer costeña, carismática, con mucho sentido de propiedad y compromiso por lo que hace, es una persona noble lo que la hace ser calmada en momentos de estrés, es alegre y sencilla, Su frase: “Si no lo hacen como tu, no significa que no lo puedan hacer”</p>
+              </div>
+              <div class="txt_qs" id="txt_qs_9">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>	
+           		<h2>Diego Grand Rodrigo </h2>
+                 <h1>-Ejecutivo Comercial-</h1>                 
+            	 <p>El ejecutivo, es publicista argentino con mucha pasión por la parte comercial, su toque de humor porteño hace que se integre fácilmente en todos los ambientes, amante de la cocina y de la magia, es una persona responsable, muy cumplida y siempre dispuesto a dar la solución en el momento indicado. Su carisma es su mejor firma. Su frase: "El que no arriesga no gana"</p>
+              </div>
+              <div class="txt_qs" id="txt_qs_10">
+           		 <h2>Johan Solano</h2>
+                 <h1>-Ejecutivo de Alianzas-</h1>                 
+            		<p>El ejecutivo, Johan es productor audiovisual de profesión y periodista por vocación, con más de 10 años de experiencia en manejo de medios de comunicación, es una persona alegre, tiene el apunte perfecto para cada situación, es responsable, comprometido, siempre ha pensado que "la unión hace la fuerza", por esta razón siempre está buscando alianzas que optimicen el manejo de la marca. Su frase: </p>
+              </div>
+              <div class="txt_qs" id="txt_qs_11">
+           		 <h2>Angie Guerrero </h2>
+                 <h1>-Asistente administrativa -</h1>                
+            	<p>La administrativa, está altamente capacitada para realizar labores administrativas enfocadas al servicio de la empresa y del cliente, siempre generado de buenas ideas, de ayudar sus compañeros con unos ojos mágicos que hacen que cualquier problema tenga varias soluciones desde su perspectiva, proactiva y con gran sentido de pertenencia, es responsable, alegre, buena compañera y amiga incondicional, Angie es la voz amable al teléfono. Su frase:</p>
+              </div>
+        </div>
+            
+<div class="area_click"></div>  
+            <div class="salida"><a href="#inicio"><img src="img/atras_btn.png" width="41" height="46" title="Regresar"></a></div>           
+      </li>
+      <!--fin de quienessomos-->
+      
+      <!--quienesconfian-->
+      <li id="quienesconfian"> 
+      		<div id="btn-next"></div>
+            <div id="btn-prev"></div>  
+		
+      		<div class="flechas" id="fleanima"><img id="background" src="img/flechas.png"></div>
+        	<div class="titulos" id="titulos"><img src="img/quienesconfian.gif"/></div>     
+            <div class="fanimado" id="fanima"><img src="img/foco2.png"/></div>
+
+            
+			<div class="cont-circular" id="cont-circle">
+            	<div class="element-circle" id="log-1"><img src="img/clientes/logo1.gif" width="100%" height="100%"></div>
+                <div class="element-circle" id="log-1"><img src="img/clientes/logo2.gif" width="100%" height="100%"></div>
+                <div class="element-circle" id="log-1"><img src="img/clientes/logo3.gif" width="100%" height="100%"></div>
+                <div class="element-circle" id="log-1"><img src="img/clientes/logo4.gif" width="100%" height="100%"></div>
+				<div class="element-circle" id="log-1"><img src="img/clientes/logo5.gif" width="100%" height="100%"></div>
+             	<div class="element-circle" id="log-1"><img src="img/clientes/logo6.gif" width="100%" height="100%"></div>
+                <div class="element-circle" id="log-1"><img src="img/clientes/logo1.gif" width="100%" height="100%"></div>
+                <div class="element-circle" id="log-1"><img src="img/clientes/logo1.gif" width="100%" height="100%"></div>
+                <div class="element-circle" id="log-1"><img src="img/clientes/logo1.gif" width="100%" height="100%"></div>
+				<div class="element-circle" id="log-1"><img src="img/clientes/logo1.gif" width="100%" height="100%"></div>
+         		<div class="element-circle" id="log-1"><img src="img/clientes/logo1.gif" width="100%" height="100%"></div>
+                <div class="element-circle" id="log-1"><img src="img/clientes/logo1.gif" width="100%" height="100%"></div>
+                <div class="element-circle" id="log-1"><img src="img/clientes/logo1.gif" width="100%" height="100%"></div>
+                <div class="element-circle" id="log-1"><img src="img/clientes/logo1.gif" width="100%" height="100%"></div>
+				<div class="element-circle" id="log-1"><img src="img/clientes/logo1.gif" width="100%" height="100%"></div>               
+			</div>
+			
+            <div class="coment-cli">
+            	<div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>0</h1>
+                </div>
+            	<div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>1</h1>
+                </div>
+            	<div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>2</h1>
+                </div>
+                <div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>3</h1>
+                </div>
+                <div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>4</h1>
+                </div>
+                <div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>5</h1>
+                </div>
+                <div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>6</h1>
+                </div>
+                <div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>7</h1>
+                </div>
+                <div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>8</h1>
+                </div>
+                <div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>9</h1>
+                </div>
+                <div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>10</h1>
+                </div>
+                <div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>11</h1>
+                </div>
+                <div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>12</h1>
+                </div>
+                <div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>13</h1>
+                </div> 
+                <div>
+                	<p><em>“YO CONFÍO EN EL CÍRCULO POR QUE REALIZAN UN TRABAJO EXCELENTE, LOS RESULTADOS CUMPLIERON TODAS MIS EXPECTATIVAS”</em></p>
+                    <h1>14</h1>
+                </div>    
+                     
+            </div>
+			<div class="area-clientes"></div>
+        	
+            <div class="content_gallery">
+              <div id="gallery-0" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">0</div>
+                        <div style="background:#003CFF">0</div>
+                        <div style="background:#44B05B">0</div>
+                    </div>
+                </div>
+            </div>
+        	<div class="content_gallery">
+                <div id="gallery-1" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">1</div>
+                        <div style="background:#003CFF">1</div>
+                        <div style="background:#44B05B">1</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_gallery">
+                <div id="gallery-2" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">2</div>
+                        <div style="background:#003CFF">2</div>
+                        <div style="background:#44B05B">2</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_gallery">
+                <div id="gallery-3" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">3</div>
+                        <div style="background:#003CFF">3</div>
+                        <div style="background:#44B05B">3</div>
+                    </div>
+                </div>
+            </div>
+        	<div class="content_gallery">
+                <div id="gallery-4" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">4</div>
+                        <div style="background:#003CFF">4</div>
+                        <div style="background:#44B05B">4</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_gallery">
+                <div id="gallery-5" class="gallery">
+                    <div id="slider" class="slider">
+                        <div><img src="img/clientes/cl-1.jpg" width="287" height="172"></div>
+                        <div><img src="img/clientes/cl-1-1.jpg" width="287" height="172"></div>                    
+                    </div>
+                </div>
+            </div>
+            <div class="content_gallery">
+                <div id="gallery-6" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">6</div>
+                        <div style="background:#003CFF">6</div>
+                        <div style="background:#44B05B">6</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_gallery">
+                <div id="gallery-7" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">7</div>
+                        <div style="background:#003CFF">7</div>
+                        <div style="background:#44B05B">7</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_gallery">
+                <div id="gallery-8" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">8</div>
+                        <div style="background:#003CFF">8</div>
+                        <div style="background:#44B05B">8</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_gallery">
+                <div id="gallery-9" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">9</div>
+                        <div style="background:#003CFF">9</div>
+                        <div style="background:#44B05B">9</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_gallery">
+                <div id="gallery-10" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">10</div>
+                        <div style="background:#003CFF">10</div>
+                        <div style="background:#44B05B">10</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_gallery">
+                <div id="gallery-11" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">11</div>
+                        <div style="background:#003CFF">11</div>
+                        <div style="background:#44B05B">11</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_gallery">
+                <div id="gallery-12" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">12</div>
+                        <div style="background:#003CFF">12</div>
+                        <div style="background:#44B05B">12</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_gallery">
+                <div id="gallery-13" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">13</div>
+                        <div style="background:#003CFF">13</div>
+                        <div style="background:#44B05B">13</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_gallery">
+                <div id="gallery-14" class="gallery">
+                    <div id="slider" class="slider">
+                        <div style="background:#FEDE02">14</div>
+                        <div style="background:#003CFF">14</div>
+                        <div style="background:#44B05B">14</div>
+                    </div>
+                </div>
+            </div>
+            <div id="trabaja-con-nosotros"><img src="img/clientes/trabaja-con-nosotros.png" width="98" height="98" title="Contáctanos o Trabaja con Nosotros"></div>
+            
+            
+        <div id="prev"></div> <div id="next"></div>
+        <div class="salida"><a href="#inicio"><img src="img/atras_btn.png" width="41" height="46" title="Regresar"></a></div>          
+      </li>
+      <!--fin de quienesconfian-->
+      
+      <!--quesomos-->
+      <li id="quesomos">
+      		<div class="flechas" id="fleanima"><img id="background" src="img/flechas.png"></div>
+        	<div class="titulos" id="titulos"><img src="img/quesomos.gif"/></div>        
+            <div class="fanimado" id="fanima"><img src="img/foco3.png"/></div> 
+            
+            <div id="txt_quesomos1">
+            <p class="crea_txt-quesomos">EL CIRCULO ES UNA AGENCIA DE PUBLICIDAD INTEGRAL que tiene dentro de su equipo de trabajo a diseñadores, publicistas y  comunicadores que convergen para suministrar soluciones prácticas, creativas, estratégicas y efectivas a las necesidades de los clientes que confían en nuestro talento.<p>
+            <p class="crea_txt-quesomos">Por ser un equipo integral suministramos a todas las áreas de las empresas que llegan al CIRCULO DE LA CREATIVIDAD, soluciones  desde el diseño, la publicidad, la comunicación, el montaje logístico de eventos, imagen y todo lo concerniente al insondable mundo de la creatividad… aquí tenemos lo que usted y su empresa estaban buscando.<p>
+            </div>
+            
+            <div id="txt_quesomos2">
+            <p class="crea_txt-quesomos"><strong>MISION</strong>
+            Somos una asociación de creativos en constante movimiento dedicada a brindar soluciones integrales en diseño, publicidad, mercadeo y comunicación. Contamos con la logística necesaria para ofrecer variedad de alternativas enfocadas al cumplimiento de los objetivos de cada empresa ajustados a cada presupuesto.<p>
+            <p class="crea_txt-quesomos"><strong>VISION</strong>
+Basados en nuestro talento humano, puntualidad, calidad y disciplina, hacer de nuestros clientes, líderes en su mercado.  Al 2016 el CIRCULO DE LA CREATIVIDAD seguirá siendo una agencia de publicidad integral, aun más reconocida a nivel nacional por ser una fuente fija de trabajo para mas de 750 personas directas e indirectas.<p>
+ 			<p class="crea_txt-quesomos"><strong>VALORES</strong>
+Lealtad, compromiso, calidad, docencia, comunicación, gratitud y actitud.<p>
+            </div>
+            
+            
+            <div class="salida"><a href="#inicio"><img src="img/atras_btn.png" width="41" height="46" title="Regresar"></a></div>      
+      </li>
+      <!--fin de quesomos-->
+      
+      <!--quehacemos-->
+      <li id="quehacemos">
+      		<div class="flechas" id="fleanima"><img id="background" src="img/flechas.png"></div>
+        	<div class="titulos" id="titulos"><img src="img/quehacemos.gif"/></div>     
+                       
+           
+           <div class="asesoria_grafica_nombre"><img src="img/asesoriagraficatxt.gif" width="111" height="111"></div> 
+           <div class="estrategia_creativa_nombre"><img src="img/estrategiacreativatxt.gif" width="111" height="111"></div> 
+           <div class="comunicacio_integral_nombre"><img src="img/comunicacionintegraltxt.gif" width="111" height="111"></div> 
+           <div class="diseno_eventos_nombre"><img src="img/disenoeventostxt.gif" width="111" height="111"></div>
+           
+           <div class="asesoria_grafica_img"><img src="img/asesoria-grafica.png" width="150" height="245"></div>
+           <div class="estrategia_creativa_img"><img src="img/estrategia-comunicativa.png" width="150" height="245"></div>
+           <div class="comunicacio_integral_img"><img src="img/comunicacio-integral.png" width="150" height="245"></div>
+           <div class="diseno_eventos_img"><img src="img/diseno-eventos.png" width="150" height="245"></div>
+           
+           <div class="fanimado" id="fanima"><img src="img/foco4.png"/></div>
+           
+           <div class="quehacemos_fondo" id="txt1">
+           	 <div class="quehacemos_txt">
+             <!--<p>&nbsp;</p>-->
+             <h1>Asesoría Gráfica</h1>
+             <p>Uno de nuestros principales servicios, donde todo nuestro equipo llegan después de lluvias de ideas y sacar el concepto adecuado, una nueva y efectiva forma para impactar al cliente y lograr realizar el requerimiento que desean.
+Se generan piezas para multimedia, web, impresos, redes sociales o video, según los requerimientos.
+</p>
+             </div>
+           </div>
+           
+            <div class="quehacemos_fondo" id="txt2">
+           	 <div class="quehacemos_txt">
+             <!--<p>&nbsp;</p>-->
+             <h1>Estrategias Creativas</h1>
+             <p>Haciendo un equipo homogéneo entre la empresa y los profesionales del círculo de la creatividad se generan estrategias acordes, con las metas de la compañía del cliente y así cumplir la necesidad requerida creando un mercado alternativo de alto impacto.</p>
+             </div>
+           </div>  
+           
+           <div class="quehacemos_fondo" id="txt4">
+           	 <div class="quehacemos_txt">
+             <!--<p>&nbsp;</p>-->
+             <h1>Diseño y producción de eventos</h1>
+             <p>Acorde con las metas tangibles y cuantitativas a las que desee llegar la empresa, se pueden realizar eventos puntuales que generen una recordación y un posicionamiento determinante dentro del segmento objetivo.</p>
+             </div>
+           </div> 
+           
+           <div class="quehacemos_fondo" id="txt3">
+           	 <div class="quehacemos_txt">
+             <!--<p>&nbsp;</p>-->
+             <h1>Comunicación Integral RR.PP. </h1>
+             <p>: Enfocados en el área de la comunicación podemos conformar un equipo experto en relaciones públicas, para que su empresa tenga un movimiento masivo en medios, a su vez, generando un seguimiento para la consecución de los objetivos específicos.</p>
+             </div>
+           </div>         
+           <div class="salida"><a href="#inicio"><img src="img/atras_btn.png" width="41" height="46" title="Regresar"></a></div>  
+      </li>
+      <!--fin de quehacemos-->
+      
+      <!--dondeestamos-->
+      <li id="dondeestamos">
+      		<div class="loader-form1"></div>  
+   		<div class="flechas" id="fleanima"><img id="background" src="img/flechas.png"></div>
+        	<div class="titulos" id="titulos"><img src="img/dondeestamos.gif"/></div>     
+            <div class="fanimado" id="fanima"><img src="img/foco5.png"/></div>  
+            
+   <div class="form_contacto">
+               <h1>Formulario de Contacto</h1>               
+              <form method="post" id="form1" name="form1">
+               	<label>NOMBRE: </label>
+               	<input name="nombre" type="text" value="">
+                <div class="clear_form"></div>
+                <label>ASUNTO: </label>
+               	<input name="asunto" type="text" value="">
+                <div class="clear_form"></div>
+                <label>EMAIL: </label>
+               	<input name="mail" type="text" value="">
+                <div class="clear_form"></div>
+                <label>MENSAJE: </label>                
+               	<textarea name="mensaje" cols="" rows=""></textarea>
+               </form>
+            </div>
+            
+            <div class="btn_enviar">ENVIAR</div>
+       	<div class="mensaje">Aqui Mensaje</div>
+        
+  <div class="banner_contacto">
+       			<div id="content_img_contact">
+            	 <div class="banner_contacto_img"><img src="img/contact1.jpg" width="290" height="170"></div>
+                 <div class="banner_contacto_img"><img src="img/contact2.jpg" width="290" height="170"></div>
+                 <div class="banner_contacto_img"><img src="img/contact3.jpg" width="290" height="170"></div>
+                 <div class="banner_contacto_img"><img src="img/contact4.jpg" width="290" height="170"></div>
+                 <div class="banner_contacto_img"><img src="img/contact5.jpg" width="290" height="170"></div>
+                 <div class="banner_contacto_img"><img src="img/contact6.jpg" width="290" height="170"></div>
+                </div> 
+            </div>  
+            <div class="datos-empresa">
+            	<p></p>
+            	<p>Estamos ubicados en Bogotá, Colombia</p> 
+                <p>En la dirección Cra 45ª #129-29 Piso 4</p> 
+                <p>Telf.: 6010699 – 5206876</p> 
+                <p>Cel.: 317 4352560 – 310 8803722</p> 
+
+            </div>
+             
+            <div class="salida"><a href="#inicio"><img src="img/atras_btn.png" width="41" height="46" title="Regresar"></a></div>  
+                   
+      </li>
+      <!--fin de dondeestamos-->
+      
+    </ul>    
+</article>
+<!--fin de contenidos-->
+
+<!--pie-->
+<footer>
+	<div class="pie">
+    	<div class="cont_foot">
+        	<div class="txt_foot">© Copyright 2013 - Circulo de la Creatividad     www.circulodelacreatividad.com </div>
+        	<div class="redes"><a href="qw"><img src="img/blogger-creativos.png" width="32" height="32" title="BLOGGER"></a></div>
+            <div class="redes"><a href="sd"><img src="img/linked-creativos.png" width="32" height="32" title="LINKED"></a></div>
+            <div class="redes"><a href="ds"><img src="img/twitter-creativos.png" width="32" height="32" title="TWITTER"></a></div>
+            <div class="redes"><a href="sd"><img src="img/facebook-creativos.png" width="32" height="32" title="FACEBOOK"></a></div>
+        </div>
+    </div>
+</footer>
+<!--fin de pie-->
+<!--funciones-->
+
+<!--<script src="js/jquery.js"></script>-->
+<script src="js/jquery.roundabout.js"></script>
+<script type="text/javascript">
+for(i=0;i<5;i++)
+{
+$("#f"+i).click(function(){
+						giro_3d.roundabout("stopAutoplay") 
+						 });
+
+$("#f"+i).mouseover(function() { 					
+    $(this).parent().find("#nombre").animate({ "margin-top": "-80px", "opacity": "1"}, 500 );
+	}).mouseout(function(){	 
+    $(this).parent().find("#nombre").animate({ "margin-top": "-100px", "opacity": "0.0"}, 500 );
+});
+}
+
+
+</script>
+<script src="js/bclientes.js" type="text/javascript"></script>
+<!--fin de funciones-->
+</body>
+</html>
